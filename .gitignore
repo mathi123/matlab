@@ -2,3 +2,4 @@ samples/
 .vscode/
 result.csv
 Pipfile.lock
+.DS_Store

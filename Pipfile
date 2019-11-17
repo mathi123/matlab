@@ -14,7 +14,6 @@ jupyter = "*"
 pandas = "*"
 sympy = "*"
 nose = "*"
-csv = "*"
 
 [requires]
 python_version = "3.7"

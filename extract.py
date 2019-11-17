@@ -5,7 +5,7 @@ import csv
 from scipy.io import loadmat
 
 
-folder="samples/alles/"
+folder="samples/TB_4kHz/"
 
 def try_extract(x, num):
     results=[]
