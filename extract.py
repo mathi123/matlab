@@ -39,10 +39,12 @@ with open('result.csv', mode='w', newline='') as result_file:
             x = loadmat(filename)
             results=[]
 
-            try:
-                results=try_extract(x,20)
-            except:
-                results=try_extract(x,19)
+            for i in range(21):
+                try:
+                    results=try_extract(x,i)
+                    break
+                except:
+                    pass
 
             row=[filename]
             for sortedResult in sorted(results, key=lambda k: k[0]):
